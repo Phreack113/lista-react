@@ -1,0 +1,63 @@
+.asideBar { 
+    background-color: #130624;
+    color: white;
+    height: 100vh;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: asideBar; 
+  }
+
+.logo{
+    width: 60px;
+    padding-right: 10px;
+}
+
+.logoContainer{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.asideBar ul a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
+
+.asideBar ul .active p{
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.asideBar ul li img{
+    width: 20px;
+}
+
+.asideBar ul li .navIcon{
+    width: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+    .asideBar ul li{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.asideBar ul li {
+    border-left: 4px solid #130624;
+}
+
+.asideBar ul a > :hover{
+    background-color: #6f30a081;
+    border-left: 4px solid #7030A0;
+}
